@@ -27,7 +27,7 @@ def fc():
                     i = i + 2
                 if i == (revnumber // 2) + 1:
                     print("{}={}*{}".format(revnumber, revnumber, 1))
-    except IndexError:
+    except (IndexError):
         pass
 
 
